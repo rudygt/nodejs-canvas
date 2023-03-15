@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/rudygt/nodejs-canvas#readme",
   "dependencies": {
-    "canvas": "^2.8.0"
+    "canvas": "^2.11.0"
   }
 }

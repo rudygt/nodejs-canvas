@@ -46,9 +46,9 @@ async function main() {
     let format = 'png';
     // let format = 'svg'
 
-    for (let index = 0; index < 100; index++) {
+    for (let index = 0; index < 10; index++) {
         let buffer = await drawOne(format, getRandomInt(5, 100));
-        await fs.writeFile(`./output/image${index++}.` + format, buffer);
+        await fs.writeFile(`./output/image${index}.` + format, buffer);
     }
 }
 
